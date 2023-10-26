@@ -19,10 +19,33 @@ export class CompteComponent {
   Password : string = "";
   Pays : string = "";
 
+  NomAfficher : string = "";
+  PrenomAfficher : string = "";
+  AdresseAfficher : string = "";
+  CPAfficher : string = "";
+  VilleAfficher : string = "";
+  TelAfficher : string = "";
+  EmailAfficher : string = "";
+  CiviliteAfficher : string = "";
+  LoginAfficher : string = "";
+  PasswordAfficher : string = "";
+  PaysAfficher : string = "";
+  
   Informations : boolean = false;
+
   afficher()
   {
-    return this.Informations = true;
+    this.NomAfficher = this.Nom;
+    this.PrenomAfficher = this.Prenom;
+    this.AdresseAfficher = this.Adresse;
+    this.CPAfficher = this.CP;
+    this.VilleAfficher = this.Ville;
+    this.TelAfficher = this.Tel;
+    this.EmailAfficher = this.Email;
+    this.CiviliteAfficher = this.Civilite;
+    this.LoginAfficher = this.Login;
+    this.PasswordAfficher = this.Password;
+    this.PaysAfficher = this.Pays;
   }
 
 
