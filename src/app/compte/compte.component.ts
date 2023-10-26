@@ -30,8 +30,6 @@ export class CompteComponent {
   LoginAfficher : string = "";
   PasswordAfficher : string = "";
   PaysAfficher : string = "";
-  
-  Informations : boolean = false;
 
   afficher()
   {
